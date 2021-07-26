@@ -1,0 +1,594 @@
+/* General rules */
+.color-white,
+.color-white a {
+  color: white !important;
+}
+.padding {
+  padding: 6rem 4rem;
+}
+.lg-padding {
+  padding: 8% 18%;
+}
+.xl-padding {
+  padding: 18rem 4rem 2rem 4rem;
+}
+.mt-n1 {
+  margin-top: -0.25rem;
+}
+.w-md-50 {
+  width: 50%;
+}
+.rounded-md {
+  border-radius: 10px;
+}
+.rounded-lg {
+  border-radius: 20px;
+}
+.btn-round {
+  border-radius: 500px;
+}
+.border-none {
+  border: none;
+}
+.blank-list {
+  list-style: none;
+  padding: 0;
+}
+.blank-list li {
+  display: inline-block;
+}
+
+.blank-list li:hover {
+  cursor: pointer;
+}
+.flush-list {
+  padding: 0;
+  list-style: none;
+}
+.vh-80 {
+  height: 80vh !important;
+}
+.hanging {
+  background-color: transparent;
+}
+.bg-pic {
+  background-image: url(../img/white-blur-background-hd1.jpg);
+}
+.intro-line {
+  width: 5%;
+  border-top: 1px solid black;
+  float: left;
+  margin-top: 12px;
+  margin-right: 10px;
+}
+.heading {
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+.heading-md {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+.display-6 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.text-light-black {
+  color: rgba(0, 0, 0, 0.678);
+  font-weight: 500;
+}
+.text-brand {
+  color: #1f365c;
+}
+.icon-orange {
+  color: red;
+}
+
+/* Top most section with nav & hero*/
+
+.top-section,
+.story,
+footer,
+.bg-blue {
+  background-color: #20345c;
+}
+.bg-transparent-blue {
+  background-color: #20345c9c;
+}
+.top-section {
+  height: 110vh;
+}
+
+.navbar-brand img {
+  max-height: 100%;
+}
+.navbar li {
+  padding-right: 30px;
+}
+.navbar li a {
+  font-size: 1rem;
+}
+.navbar-toggler {
+  border-color: white !important;
+}
+.search-form {
+  position: relative;
+}
+.search-button {
+  background-color: transparent;
+  position: absolute;
+  color: white;
+  top: 2px;
+  right: 2px;
+}
+.search-form input {
+  border-radius: 100px;
+  background-color: transparent;
+  width: 20vh !important;
+}
+.hero-slider li {
+  font-weight: 600;
+}
+.hero-controls li {
+  color: rgba(255, 255, 255, 0.3);
+  font-weight: 600;
+}
+.hero-controls .active {
+  color: rgba(255, 255, 255, 1);
+}
+.hero {
+  height: 90vh;
+}
+.hero-content-box {
+  color: white !important;
+  width: 70%;
+}
+.hero-content-box img {
+  width: 100%;
+}
+.hero-content-box button {
+  border: solid 1px white !important;
+  background-color: transparent !important;
+  color: inherit !important;
+}
+.hero-content-box button:hover {
+  background-color: white !important;
+  color: black !important;
+  transition: ease;
+}
+.hero-content-box .carousel-caption {
+  bottom: 56%;
+}
+
+/*Carouse related style rules */
+
+.carousel-indicator {
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+  color: white !important;
+}
+.carousel-indicator a {
+  color: inherit;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 30px;
+  width: 30px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 2px solid #777675;
+  background-image: none;
+}
+.carousel-indicators li {
+  border: solid 1px #adaba9;
+  width: 13px;
+  padding: 5px;
+}
+.services .carousel-indicators .active {
+  background-color: #adaba9;
+}
+.carousel-control-next-icon:after {
+  position: relative;
+  top: -3px;
+  content: ">";
+  font-size: 20px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  position: relative;
+  top: -3px;
+  content: "<";
+  font-size: 20px;
+  color: black;
+}
+
+.second-section {
+  background-color: #f2f0ee;
+}
+
+/* Services section */
+.services {
+  padding: 0 0;
+}
+.our-services-icon {
+  font-size: 3rem;
+}
+
+/* Offerings section rules */
+.offerings {
+  padding: 4rem 15rem;
+  background-color: #f2f0ee;
+}
+.offerings-item {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.offerings li a {
+  color: black;
+}
+
+/* Story section */
+.story {
+  color: white;
+  padding: 6rem 0 0 3rem;
+}
+.fancy-number {
+  font-size: 6rem;
+  margin: 0;
+  line-height: 6rem;
+}
+.fancy-number:nth-child(1) {
+  padding-right: 30px;
+}
+#mobile {
+  border: solid 1px white;
+  border-top-left-radius: 4rem;
+  background-color: white;
+  background-image: url(../img/mobile.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  position: relative;
+  z-index: 100;
+}
+
+/* Testimonials & Speech Bubble */
+.testimonials img {
+  height: 50px;
+  width: 50px;
+}
+.testimonials .testimonials-box blockquote {
+  background-color: white;
+}
+.testimonials .testimonials-box:nth-of-type(2) blockquote {
+  background-color: #e93314 !important;
+  color: white;
+}
+.testimonials .testimonials-box:nth-of-type(2) .pointer {
+  height: 20px;
+  width: 20px;
+  background-color: #e93314;
+  border-right: solid 3px #e93314;
+  border-bottom: solid 3px #e93314;
+  margin: 0 auto;
+  transform: rotate(45deg);
+  margin-top: -27px;
+  position: relative;
+  z-index: 10;
+}
+
+blockquote {
+  border: solid 2px #f2f0ee;
+  background-color: transparent;
+  padding: 1.5rem;
+}
+.pointer {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-right: solid 3px #f2f0ee;
+  border-bottom: solid 3px #f2f0ee;
+  margin: 0 auto;
+  transform: rotate(45deg);
+  margin-top: -27px;
+  position: relative;
+  z-index: 10;
+}
+
+/* Brand section style rules */
+.brands {
+  padding: 0 18% 10% 18%;
+}
+.brand-item svg,
+.contact svg {
+  font-size: 2.6rem;
+}
+.brand-item {
+  font-size: 1.4rem;
+  color: #adaba9;
+  border: solid 1px #adaba9;
+  border-radius: 10px;
+  padding: 1.4rem 1rem 1.4rem 1rem;
+  text-align: center;
+  height: 100px;
+}
+
+/*Articles Section */
+.articles {
+  background-color: #f2f0ee;
+}
+.articles .card {
+  border: hidden !important;
+}
+.articles .card-body {
+  background-color: #f2f0ee;
+  padding-left: 0;
+}
+.articles .card-title {
+  width: 65%;
+}
+.articles a.card-link small {
+  color: rgba(0, 0, 0, 0.678);
+  font-weight: 500;
+}
+
+/*Contact Section */
+
+.contact .row div:first-child {
+  color: #f8f9fa !important;
+  background-color: #e93314;
+}
+.contact .row div:last-child {
+  color: #6c757d !important;
+}
+
+/*Footer*/
+footer {
+  color: white !important;
+}
+
+footer a {
+  color: inherit;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+footer a:hover {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+}
+footer h3 {
+  margin-bottom: 2rem;
+}
+.email-link {
+  text-decoration: underline;
+}
+.footer-links a {
+  margin-bottom: 10px;
+}
+.socials li {
+  padding-right: 20px;
+}
+.socials a:hover {
+  color: blue;
+}
+
+/* Responsive rule sets */
+@media screen and (max-width: 767px) {
+  .w-md-50 {
+    width: 100%;
+  }
+  .hero {
+    height: 70vh;
+  }
+  .hero .carousel-caption {
+    top: 20%;
+  }
+  .hero-content-box {
+    width: 100% !important;
+  }
+  .hero h2 {
+    font-size: 2rem;
+  }
+  .offerings {
+    padding: 2rem 2rem;
+  }
+  .offerings h2 {
+    font-size: 1.5rem;
+    text-align: center !important;
+  }
+  .brand-item svg {
+    font-size: 1.5rem;
+  }
+  .brand-item {
+    font-size: 1.5rem;
+    color: #adaba9;
+    border: solid 1px #adaba9;
+    border-radius: 10px;
+    padding: 1.5rem 1rem 1.5rem 2.5rem;
+  }
+
+  .team .card-deck {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .hero-content-box .carousel-caption {
+    bottom: 40%;
+  }
+  .navbar li {
+    padding-right: 10px;
+  }
+  .search-button {
+    background-color: transparent;
+    position: relative;
+    color: white;
+    right: 35px;
+  }
+  .w-md-100 {
+    width: 100% !important;
+  }
+  div.contact-options-box {
+    margin-top: 60rem;
+  }
+  div.icon-box {
+    width: 100%;
+  }
+}
+
+/* About page styles */
+.team .card {
+  background-color: #20345c;
+  border: solid 1px #20345c;
+  border-radius: 10px;
+}
+.team .card-body {
+  background-image: url(../img/man.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 27% center;
+  height: 400px;
+}
+.about-carousel-indicator {
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+.about-carousel-indicator li {
+  height: 30px;
+  width: 30px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid #777675;
+  background-image: none;
+  padding-top: 2px;
+}
+.about-carousel-indicator li:nth-of-type(2) {
+  border: none;
+}
+.about-carousel-indicator a {
+  color: black;
+}
+.team h2 {
+  padding-left: 4rem;
+}
+.team hr {
+  border-width: 2px;
+  margin-top: 100px;
+}
+.team hr:first-of-type {
+  border-color: #20345c;
+  width: 15%;
+}
+.team hr:last-of-type {
+  border-color: rgba(29, 29, 29, 0.171);
+  margin-left: -5px;
+  width: 65%;
+}
+
+.values {
+  background-color: #f8f5f2;
+  margin-top: -280px;
+}
+.values-box {
+  border-bottom: solid rgba(56, 56, 56, 0.096) 1px;
+}
+
+/* Styles for Services Page */
+.services-main {
+  padding: 6rem 10rem;
+}
+.our-services-icon {
+  font-size: 3.5rem;
+}
+/* Style rules for Services & Blog carousels */
+.our-services-carousel > div {
+  padding: 3rem 3rem;
+}
+.our-services-carousel .carousel-control-next,
+.our-services-carousel .carousel-control-prev,
+.books-carousel .carousel-control-next,
+.books-carousel .carousel-control-prev {
+  opacity: 1;
+}
+
+.our-services-carousel .carousel-control-next-icon,
+.our-services-carousel .carousel-control-prev-icon,
+.books-carousel .carousel-control-next-icon,
+.books-carousel .carousel-control-prev-icon {
+  height: 30px;
+  width: 30px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-image: none;
+}
+
+.our-services-carousel .carousel-control-next-icon:after,
+.our-services-carousel .carousel-control-prev-icon:after,
+.books-carousel .carousel-control-next-icon:after,
+.books-carousel .carousel-control-prev-icon:after {
+  color: white;
+}
+.books-carousel {
+  margin-top: 12rem;
+}
+
+/* Styles for Blog Page */
+.kerning {
+  letter-spacing: -1px;
+  word-spacing: -2px;
+}
+.blog,
+.blog .card,
+.body-pink {
+  background-color: #f8f5f2;
+}
+.blog > div {
+  border-bottom: solid rgba(56, 56, 56, 0.274) 1px;
+}
+.blog > div:last-of-type {
+  border-bottom: none;
+}
+
+/* Style rules for Contact Page */
+.contact-tagline {
+  margin-bottom: 8rem;
+}
+.input-group {
+  padding: 2rem 0;
+}
+form input,
+form textarea {
+  border: solid 1px rgba(56, 56, 56, 0.274);
+}
+form input[type="submit"] {
+  background-color: transparent;
+  color: inherit;
+  border: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.contact-options-box {
+  margin-top: 25rem;
+}
+.icon-box {
+  background-color: #fce0dc;
+  width: 40%;
+  padding: 1rem 2rem;
+  margin: auto;
+  font-size: 4rem;
+}
